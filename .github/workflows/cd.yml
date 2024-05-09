@@ -36,8 +36,10 @@ jobs:
         uses: pozetroninc/github-action-get-latest-release@master
         with:
           # owner: siyuan-note
+          owner: wenfer
+          repo: siyuan
           # repo: siyuan
-          repository: ${{ github.repository }}
+          # repository: ${{ github.repository }}
           token: ${{ secrets.GITHUB_TOKEN }}
           excludes: prerelease, draft
 
